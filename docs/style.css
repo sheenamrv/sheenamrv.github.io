@@ -3,8 +3,8 @@
     padding: 0;
     outline: 0;
     text-decoration: none;
-    list-style: none;
-    box-sizing: border-box
+    /* list-style: none; */
+    box-sizing: border-box;
 }
 
 :root {
@@ -18,12 +18,16 @@
     --transition: all 400ms ease;
 }
 
+html {
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Inter', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+
 }
 
 .container {
@@ -122,10 +126,10 @@ nav{
     background-color: transparent;
     width: 100vw;
     height: 5rem;
-    position: fixed;
+    /* position: fixed; */
+    /* position: absolute; */
     top: 0;
     z-index: 11;
-
 }
 
 .nav__container {
@@ -159,7 +163,7 @@ nav button{
 header {
     position: relative;
     top: 5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 60vh;
     margin-bottom: 5rem;
     background-image: url("images/Lines.svg");
@@ -173,7 +177,8 @@ header {
     align-items: center;
     gap: 5rem;
     height: 100%;
-    
+    /* overflow-x: hidden;
+    max-width: 100%; */
 }
 
 .header__highlight {
@@ -186,5 +191,58 @@ header {
     margin: 0.5rem 0 2.4rem;
 }
 
+.work__table {
+    margin-top: 300px;
+    
 
+}
 
+th {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h1__2022 {
+    color: #519BF4;
+}
+
+.h1__2021 {
+    color: #CDF564;
+}
+
+.h1__experience {
+    color: var(--color-pink);
+    font-size: 30px;
+    text-align: left;
+}
+
+.h2__experience {
+    font-size: 20px;
+    color: var(--color-orange);
+}
+.th__year {
+    padding-left: 100px;
+    padding-right: 100px;
+    vertical-align: top;
+}
+
+.th__experience {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.p__skills {
+    color: var(--color-pink);
+    font-size: 15px;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
