@@ -147,6 +147,7 @@ nav button{
     display: flex;
     align-items: center;
     gap: 4rem;
+    list-style: none;
 }
 
 .nav__menu a {
