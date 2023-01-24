@@ -233,6 +233,11 @@ th {
     text-align: left;
 }
 
+/* .p__about {
+    font-size: 20px;
+
+} */
+
 .p__skills {
     color: var(--color-pink);
     font-size: 15px;
@@ -240,6 +245,7 @@ th {
 
 ul {
     margin-left: 1rem;
+    font-weight: 200;
 }
 
 footer {
