@@ -217,6 +217,12 @@ th {
     text-align: left;
 }
 
+.h1__work_experiences {
+    color: var(--color-pink);
+    font-size: 35px;
+    text-align: left;
+}
+
 .h2__experience {
     font-size: 20px;
     color: var(--color-orange);
@@ -252,4 +258,33 @@ footer {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
+}
+
+.arrow {
+    border: solid var(--color-white);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.arrow__margin {
+    margin-top: 230px;
+}
+
+.arrow__margin i {
+    transition: var(--transition);
+}
+
+.arrow__margin i:hover {
+    color: var(--color-pink);
 }
