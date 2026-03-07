@@ -1,6 +1,6 @@
 import React from "react";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath = "";
 
 function Panel({
   role,

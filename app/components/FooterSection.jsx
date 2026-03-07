@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Time from "./Time";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath = "";
 
 const FooterSection = () => {
   return (
