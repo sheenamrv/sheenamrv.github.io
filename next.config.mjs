@@ -2,7 +2,7 @@
 
 // const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  basePath: "",
   output: "export",
   distDir: "dist",
   images: { unoptimized: true },
