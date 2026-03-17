@@ -1,7 +1,7 @@
 
 # 🌐 Sheena's Personal Portfolio
 
-> A clean, responsive portfolio built to showcase my projects, skills, and journey as a developer.
+A clean, responsive portfolio built to showcase my projects, skills, and journey as a developer.
 
 🔗 **Website:** [sheenamrv.github.io](https://sheenamrv.github.io/)
 
@@ -9,7 +9,7 @@
 
 ## 👋 About
 
-I'm a student developer, and this portfolio was designed to reflect my work, skills, and growth.
+Get to know me! I'm a student developer, and this portfolio was designed to reflect my work, skills, and growth.
 
 ---
 
