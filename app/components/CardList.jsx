@@ -5,7 +5,7 @@ import Link from "next/link";
 function Card({ projectName, technology, description, link, imageUrl }) {
   return (
     <div data-aos="fade-up">
-      <div className="block w-96 rounded-xl overflow-hidden border shadow-lg m-6 transition-all hover:scale-110">
+      <div className="block w-72 sm:w-96 rounded-xl overflow-hidden border shadow-lg mt-6 mb-6 mx-auto sm:mx-6 transition-all duration-300 hover:scale-105">
         <Link href={link} target="_blank">
           <div className="w-full h-48 relative">
             <Image
