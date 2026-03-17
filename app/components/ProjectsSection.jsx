@@ -8,6 +8,9 @@ const ProjectsSection = () => {
         <div></div>
         <div></div>
         <div className="col-span-8">
+          <small className="text-[#577BE6] mb-4 text-l font-bold ">
+            Personal
+          </small>
           <h1 className="text-[#577BE6] m-b text-4xl font-extrabold mb-12 ">
             Projects
           </h1>

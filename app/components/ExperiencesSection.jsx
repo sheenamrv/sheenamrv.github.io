@@ -14,7 +14,7 @@ const ExperiencesSection = () => {
             Professional Work
           </small>
           <h2 className="text-[#577BE6] mb-2 text-xl sm:text-2xl lg:text-3xl font-bold">
-            Experiences
+            Experience
           </h2>
           <PanelList />
         </div>

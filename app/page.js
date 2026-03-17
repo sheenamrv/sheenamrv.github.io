@@ -8,6 +8,7 @@ import PanelSection from "./components/PanelList";
 import FooterSection from "./components/FooterSection";
 import ProjectsSection from "./components/ProjectsSection";
 import QuoteSection from "./components/QuoteSection";
+import ExcerptsSection from "./components/ExcerptsSection";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -28,7 +29,8 @@ export default function Home() {
         <AboutSection></AboutSection>
         <QuoteSection></QuoteSection>
         <ExperiencesSection></ExperiencesSection>
-        {/* <ProjectsSection></ProjectsSection> */}
+        <ProjectsSection></ProjectsSection>
+        <ExcerptsSection></ExcerptsSection>
         {/* <div className="border-t-2 border-[#577BE6]"></div> */}
         <FooterSection></FooterSection>
       </main>

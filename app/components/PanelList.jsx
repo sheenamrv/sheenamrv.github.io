@@ -24,7 +24,8 @@ function Panel({
         />
 
         <div className="mt-2 text-center sm:text-left">
-          <h2 className="text-[#577BE6] text-xl sm:text-2xl font-semibold mb-2">
+          {/* text-[#577BE6] */}
+          <h2 className=" text-gray-900 text-xl sm:text-2xl font-semibold mb-2">
             {role}
           </h2>
           <h3 className="text-[#212427] text-lg sm:text-xl mb-2">{company}</h3>
@@ -92,7 +93,7 @@ function PanelList() {
       years: "September 2022 - December 2022",
       description: "💻 DevLabs",
       imageUrl: `${basePath}/images/GoC logo.jpg`,
-      tools: ["Python", "Flask", "TypeScript"],
+      tools: ["Python", "Azure Databricks Notebooks", "Flask", "TypeScript"],
     },
     {
       role: "Software Developer",

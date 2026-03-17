@@ -2,39 +2,38 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function Card({
-  projectName,
-  technology,
-  description,
-  link,
-  imageUrl,
-  backgroundColor,
-}) {
+function Card({ projectName, technology, description, link, imageUrl }) {
   return (
-    // Outer Card
-    <div
-      className={"h-80 w-80 rounded-[15px] m-6 border-4"}
-      style={{ backgroundColor }}
-    >
-      <div className="m-12">
-        <div className="float-right">
-          <Link href={"/"}>
+    <div data-aos="fade-up">
+      <div className="block w-96 rounded-xl overflow-hidden border shadow-lg m-6 transition-all hover:scale-110">
+        <Link href={link} target="_blank">
+          <div className="w-full h-48 relative">
             <Image
-              src="/images/link.svg"
-              alt="link symbol"
-              width={30}
-              height={30}
+              src={imageUrl}
+              alt={`${projectName} preview`}
+              fill
+              className="object-cover"
             />
-          </Link>
-        </div>
+          </div>
 
-        <div className="justify-center text-center pt-20">
-          <h2 className="text-[#577BE6] text-2xl font-semibold">
-            {projectName}
-          </h2>
+          <div className="bg-white p-4">
+            <h2 className="text-xl font-semibold text-gray-900">
+              {projectName}
+            </h2>
+            <p className="text-gray-600 mt-1">{description}</p>
 
-          <p>{technology}</p>
-        </div>
+            <div className="flex flex-wrap mt-2 gap-2">
+              {technology.map((tech) => (
+                <span
+                  key={tech}
+                  className="px-2 py-1 text-sm rounded-full bg-[#577BE6] text-[#ffffff] "
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );
@@ -45,35 +44,10 @@ function CardList() {
   const panelData = [
     {
       projectName: "Personal Website",
-      technology: "React, NextJs, Tailwind",
-      description: "description",
-      link: "link",
-      imageUrl: "/images/GoC logo.jpg",
-      backgroundColor: "#EAF7FF",
-    },
-    {
-      projectName: "Personal Website",
-      technology: "React, NextJs, Tailwind",
-      description: "description",
-      link: "link",
-      imageUrl: "/images/GoC logo.jpg",
-      backgroundColor: "#FFF7D7",
-    },
-    {
-      projectName: "Personal Website",
-      technology: "React, NextJs, Tailwind",
-      description: "description",
-      link: "link",
-      imageUrl: "/images/GoC logo.jpg",
-      backgroundColor: "#F9F1FF",
-    },
-    {
-      projectName: "Personal Website",
-      technology: "React, NextJs, Tailwind",
-      description: "description",
-      link: "link",
-      imageUrl: "/images/GoC logo.jpg",
-      backgroundColor: "#EAF7FF",
+      technology: ["Next.js", "Tailwind CSS"],
+      description: "Web application",
+      link: "https://github.com/sheenamrv/sheenamrv.github.io",
+      imageUrl: "/images/personal_website.jpg",
     },
   ];
 
