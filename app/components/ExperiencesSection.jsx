@@ -13,9 +13,9 @@ const ExperiencesSection = () => {
           <small className="text-[#577BE6] mb-4 text-l font-bold ">
             Professional Work
           </small>
-          <h2 className="text-[#577BE6] mb-2 text-xl sm:text-2xl lg:text-3xl font-bold">
+          <h1 className="text-[#577BE6] m-b text-4xl font-extrabold mb-12">
             Experience
-          </h2>
+          </h1>
           <PanelList />
         </div>
       </div>

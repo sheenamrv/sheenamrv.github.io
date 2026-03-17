@@ -25,10 +25,9 @@ const AboutSection = () => {
             <small className="text-[#577BE6] mb-4 text-l font-bold">
               About me
             </small>
-            <h2 className="text-[#577BE6] mb-2 text-xl sm:text-2xl lg:text-3xl font-bold">
+            <h1 className="text-[#577BE6] m-b text-4xl font-extrabold mb-12">
               Education
-            </h2>
-
+            </h1>
             <p className="text-[#ffffff] text-lg sm:text-xl px-0.5 font-medium">
               Ontario College Graduate Certificate in Business Intelligence
               Systems Infrastructure
