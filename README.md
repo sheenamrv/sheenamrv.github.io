@@ -7,13 +7,13 @@ A clean, responsive portfolio built to showcase my projects, skills, and journey
 
 ---
 
-## 👋 About
+## About
 
 Get to know me! I'm a student developer, and this portfolio was designed to reflect my work, skills, and growth.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology                                                                                 |
 | ------------------------------------------------------------------------------------------ |
