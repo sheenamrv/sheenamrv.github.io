@@ -9,9 +9,7 @@ const QuoteSection = () => {
 
         <div className="col-span-1 lg:col-span-8 text-center">
           <h1 className="text-[#ffffff] text-3xl sm:text-4xl lg:text-5xl font-semibold mt-40 mb-52 italic">
-            From software development to data analytics and engineering, I bring
-            the same problem-solving mindset, now focused on turning data into
-            insight. &#9889;
+            Think. Build. Deliver. &#9889;
           </h1>
         </div>
       </div>

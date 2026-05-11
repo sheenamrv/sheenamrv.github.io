@@ -29,8 +29,8 @@ export default function Home() {
         <AboutSection></AboutSection>
         <QuoteSection></QuoteSection>
         <ExperiencesSection></ExperiencesSection>
-        <ProjectsSection></ProjectsSection>
         <ExcerptsSection></ExcerptsSection>
+        <ProjectsSection></ProjectsSection>
         {/* <div className="border-t-2 border-[#577BE6]"></div> */}
         <FooterSection></FooterSection>
       </main>

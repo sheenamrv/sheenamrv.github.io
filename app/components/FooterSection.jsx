@@ -28,16 +28,23 @@ const FooterSection = () => {
             <h2 className="text-[#577BE6] text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-2">
               Sheena Verana
             </h2>
-            <p className="text-[#577BE6] font-medium text-base mb-1">
+            <p className="text-gray-300 font-medium text-base mt-3 mb-2">
               {" "}
               Currently coding from Ottawa{" "}
             </p>
-            <Time></Time>
-            <br></br>
-            <Link href="mailto: smrverana@gmail.com">
-              <p className="text-[#DDEE84] font-semibold text-xl transition-all hover:scale-110 ">
-                &quot;It&quot;s about <i>time</i> we connected!&quot;
+            <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-indigo-500/10 via-purple-500/10 to-blue-500/5 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.35)] p-8">
+              <Time></Time>
+            </div>
+
+            {/* <Link href="mailto: smrverana@gmail.com">
+              <p className="text-[#DDEE84] font-semibold text-xl transition-all hover:scale-110 mt-4">
+                &quot;It's about <i>time</i> we connected!&quot;
               </p>
+            </Link> */}
+            <Link href="mailto: smrverana@gmail.com">
+              <button className="px-6 py-3 bg-[#DDEE84] text-[#000000] font-medium rounded shadow-lg hover:bg-[#577BE6] mt-14 transition-all hover:scale-110">
+                Let's connect
+              </button>
             </Link>
           </div>
         </div>

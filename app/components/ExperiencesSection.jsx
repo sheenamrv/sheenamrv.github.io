@@ -10,9 +10,9 @@ const ExperiencesSection = () => {
         <div></div>
 
         <div className="col-span-1 lg:col-span-8">
-          <small className="text-[#577BE6] mb-4 text-l font-bold ">
+          {/* <small className="text-[#577BE6] mb-4 text-l font-bold ">
             Professional Work
-          </small>
+          </small> */}
           <h1 className="text-[#577BE6] m-b text-4xl font-extrabold mb-12">
             Experience
           </h1>
