@@ -31,5 +31,5 @@ On the website, you’ll also find:
 |---|---|---|
 | Next.js | Frontend Framework | [Next.js](https://nextjs.org/) |
 | Tailwind CSS | Styling | [Tailwind CSS](https://tailwindcss.com/) |
-| AOS (Animate on Scroll) | Scroll Animations | [AOS — Animate on Scroll](https://michaelevans.org/2021/06/30/animate-on-scroll-with-aos/) |
+| AOS (Animate on Scroll) | Scroll Animations | [AOS — Animate on Scroll](https://michalsnik.github.io/aos/) |
 | Figma | UI Design & Graphics | [Explore my Figma File](https://www.figma.com/design/Bx5WGvLBFUyUeHKK9CCrYX/Sheena-s-Website?node-id=0-1&t=L9MEX4ImIN49ertg-1) |
