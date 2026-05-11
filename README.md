@@ -18,14 +18,14 @@ The animations on the website were inspired by other portfolio sites I explored,
 I continue updating small sections of the website whenever I revisit the project.
 
 On the website, you’ll also find:
-• My LinkedIn, GitHub, and email links
-• Featured projects and experiences
-• Small excerpts from recommendation letters written by previous seniors and mentors
 
-Feel free to reach out through email at smrverana@gmail.com !
+- My LinkedIn, GitHub, and email links
+- Featured projects and experiences
+- Small excerpts from recommendation letters written by previous seniors and mentors
+
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
 | Technology | Purpose | Link |
 |---|---|---|
