@@ -13,7 +13,7 @@ const HeroSection = () => {
 
         <div className="col-span-1 lg:col-span-4 mt-auto mb-auto flex flex-col justify-center text-center lg:text-left">
           <small className="text-[#577BE6] font-medium text-lg sm:text-xl lg:text-3xl mb-3">
-            I'm Sheena Verana.
+            I'm Sheena Marie Verana.
           </small>
           <h1 className="text-[#ffffff] text-3xl sm:text-4xl lg:text-6xl font-extrabold mb-4">
             A technical mind with an analytical edge

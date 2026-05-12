@@ -26,7 +26,7 @@ const FooterSection = () => {
         <div className="col-span-1 lg:col-span-4 mt-4 lg:mt-auto mb-auto text-center lg:text-left lg:place-self-center">
           <div className="text-center">
             <h2 className="text-[#577BE6] text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-2">
-              Sheena Verana
+              Sheena Marie Verana
             </h2>
             <p className="text-gray-300 font-medium text-base mt-3 mb-2">
               {" "}
