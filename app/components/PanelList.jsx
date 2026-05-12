@@ -82,7 +82,7 @@ function PanelList() {
     {
       role: "Information Technology Developer",
       company: "Canada Revenue Agency",
-      employmentType: "Internship",
+      employmentType: "Co-op",
       years: "May 2023 - Aug 2023",
       description: "👩‍💻 Internal Learning Application",
       imageUrl: `${basePath}/images/GoC logo.jpg`,
@@ -91,7 +91,7 @@ function PanelList() {
     {
       role: "Information Technology Developer",
       company: "Canada Revenue Agency",
-      employmentType: "Internship",
+      employmentType: "Co-op",
       years: "Sep 2022 - Dec 2022",
       description: "💻 DevLabs",
       imageUrl: `${basePath}/images/GoC logo.jpg`,
@@ -100,7 +100,7 @@ function PanelList() {
     {
       role: "Software Developer",
       company: "Transport Canada",
-      employmentType: "Internship",
+      employmentType: "Co-op",
       years: "Jun 2021  - Apr 2022",
       description: "🚢 Marine Electronic Document Validation",
       imageUrl: `${basePath}/images/GoC logo.jpg`,

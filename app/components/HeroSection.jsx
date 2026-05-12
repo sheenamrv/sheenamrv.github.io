@@ -25,7 +25,10 @@ const HeroSection = () => {
           </Link>
         </div>
 
-        <div className="col-span-1 lg:col-span-4 flex justify-center items-center mt-8 lg:mt-0">
+        <div
+          className="col-span-1 lg:col-span-4 flex justify-center items-center mt-8 lg:mt-0"
+          data-aos="flip-right"
+        >
           <Image
             src={`${basePath}/images/cartoon_v2.svg`}
             alt="cartoon image of Sheena"
