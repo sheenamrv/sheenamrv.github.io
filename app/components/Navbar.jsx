@@ -7,7 +7,8 @@ const basePath = "";
 
 const navbarLinks = [
   { title: "About Me", path: "#about" },
-  { title: "Experiences", path: "#experiences" },
+  { title: "Experience", path: "#experiences" },
+  { title: "Testimonials", path: "#excerpts" },
   { title: "Projects", path: "#projects" },
   { title: "Contact", path: "mailto:smrverana@gmail.com" },
 ];

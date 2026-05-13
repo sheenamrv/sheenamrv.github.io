@@ -2,7 +2,7 @@ import React from "react";
 
 const ExcerptsSection = () => {
   return (
-    <section id="quote" className="mb-32" data-aos="fade-right">
+    <section id="excerpts" className="mb-32" data-aos="fade-right">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 px-6 sm:px-12 lg:px-16">
         <div></div>
         <div></div>
