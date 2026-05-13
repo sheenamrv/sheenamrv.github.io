@@ -16,7 +16,7 @@ function Panel({
       className="w-full max-w-[1200px] rounded-[24px] mt-6 mb-6 mx-4 border border-white/10 bg-gradient-to-br from-indigo-500/10 via-purple-500/10 to-blue-500/5 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.35)]"
       data-aos="fade-up"
     >
-      <div className="flex flex-col sm:flex-row ml-6 mr-6 my-8">
+      <div className="flex flex-col sm:flex-row ml-6 mr-6 my-8 sm:ml-10">
         <img
           src={imageUrl}
           alt={company}
